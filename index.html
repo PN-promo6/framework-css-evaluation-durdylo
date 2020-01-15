@@ -66,28 +66,39 @@
     </a>
   </div>
   <main class="container mt-4">
-    <section class="col-lg-8">
-      <div class="row">
-      </div>
-    </section>
-    <aside class="col-lg-4">
-      <div class="row flex-column">
-        <img src="http://placeimg.com/100/100/people" class="rounded-circle mx-auto d-block" alt="">
-        <div class="">
-          <h2 class="text-center">John Doe</h2>
-          <p class="font-italic text-center">Diplomé de l'école d'architecture de caen</p>
-          <button type="button" class="btn btn-info mx-auto d-block">Voir tous les articles</button>
+    <div class="row">
+      <aside class="col-lg-3">
+        <div class="row flex-column">
+          <img src="http://placeimg.com/100/100/people" class="rounded-circle mx-auto d-block" alt="">
+          <div class="">
+            <h2 class="text-center">John Doe</h2>
+            <p class="font-italic text-center">Diplomé de l'école d'architecture de caen</p>
+            <button type="button" class="btn btn-info mx-auto d-block">Voir tous les articles</button>
+          </div>
+          <div class="mt-3">
+            <ul class="list-group">
+              <li class="list-group-item">Sous-catégorie 1 <span class="badge badge-pill badge-secondary">23</span></li>
+              <li class="list-group-item">Sous-catégorie 2 <span class="badge badge-pill badge-secondary">11</span></li>
+              <li class="list-group-item">Sous-catégorie 3 <span class="badge badge-pill badge-secondary">4</span></li>
+            </ul>
+          </div>
         </div>
-        <div class="mt-3">
-          <ul class="list-group">
-            <li class="list-group-item">Sous-catégorie 1 <span class="badge badge-pill badge-secondary">23</span></li>
-            <li class="list-group-item">Sous-catégorie 2 <span class="badge badge-pill badge-secondary">11</span></li>
-            <li class="list-group-item">Sous-catégorie 3 <span class="badge badge-pill badge-secondary">4</span></li>
-          </ul>
+      </aside>
+      <section class="col-lg-9">
+        <div class="row">
+          <div class="col">
+          <h1>ARTICLES - CATEGORIE 1</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+              <li class="breadcrumb-item"><a href="#">Blog</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Catégorie 1</li>
+            </ol>
+          </nav>
+          </div>
         </div>
-      </div>
-    </aside>
-
+      </section>
+    </div>
   </main>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
